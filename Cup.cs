@@ -35,10 +35,22 @@ public class Cup
         Console.Write("Would you like to remove a die? [N/y]: ");
         if (string.Equals(Console.ReadLine(), "y"))
         {
-            return;
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("=== Current Cup ===");
+                for (int i = 0; i < Dice.Count; i++)
+                {
+                    Console.WriteLine($"{i + 1}. {Dice[i].Faces}-Sided");
+                }
+
+                Console.WriteLine("0. Cancel");
+
+            } while (true);
+
+
         }
     }
-
 
 }
 
