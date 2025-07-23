@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using DiceRoller;
+
+List<Die> Cup = new();
+
+// get number of dice
+
+// add die
+
+// remove die
