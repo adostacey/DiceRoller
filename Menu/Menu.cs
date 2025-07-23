@@ -33,7 +33,7 @@ public class SubMenuItem : MenuItem
 
 public class ExecMenuItem : MenuItem
 {
-    private required readonly Action _action; // delegate 
+    private readonly Action _action; // delegate 
 
     protected ExecMenuItem(string title) : base(title) { }
 
