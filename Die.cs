@@ -1,6 +1,6 @@
 ﻿namespace DiceRoller;
 
-public class Dice
+public class Die
 {
     private readonly Random _roll = new(); // using field to denote internal helper
 
